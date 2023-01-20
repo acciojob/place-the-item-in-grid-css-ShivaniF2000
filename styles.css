@@ -1,11 +1,10 @@
 
 /* Your CSS Code here. */
-holder{
+.holder{
     display: grid;
     width: 200px;
     grid-template-columns: 100px 100px;
     grid-row: auto auto;
-    border: 2px;
 }
 .grid-item{
     display: flex;
