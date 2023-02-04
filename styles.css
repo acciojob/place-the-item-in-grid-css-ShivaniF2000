@@ -3,8 +3,7 @@
 .holder{
     display: grid;
     width: 200px;
-    grid-template-columns: 200px 200px;
-    grid-row: auto auto;
+    grid-template-columns: repeat(2,1fr);
 }
 .grid-item{
     display: flex;
